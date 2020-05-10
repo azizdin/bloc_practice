@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: <Widget>[
                       Container(
-                        padding: EdgeInsets.all(5.0),
+                        padding: EdgeInsets.all(05.0),
                         child:  Text(
                           "${snapshot.data[index].id}.",
                           style: TextStyle(fontSize: 20.0),
